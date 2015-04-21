@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "BlockList",
+    "website": "http://www.blocklist.de/",
+    "icon": "blocklist.ico",
+    "desc": "Fail2Ban-Reporting Service."
+  },
+  "request": {
+    "ip_url": "http://www.blocklist.de/en/view.html?ip={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["<< 0 matches"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "spam",
+    "name": "URIBL",
+    "website": "https://admin.uribl.com",
+    "icon": "uribl.ico",
+    "desc": "URIBL.COM is a Realtime URI Blacklist (RHSBL) served via DNS."
+  },
+  "request": {
+    "ip_url": "https://admin.uribl.com",
+    "method": "POST",
+    "encrypt": "",
+    "post_fields": {
+      "domains" : ""
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["NOT Listed on URIBL"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "spam",
+    "name": "SpamCop",
+    "website": "https://www.spamcop.net",
+    "icon": "spamcop.ico",
+    "desc": "SpamCop's free blocking list.."
+  },
+  "request": {
+    "ip_url": "https://www.spamcop.net/w3m?action=checkblock&ip={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["not listed in bl.spamcop.net"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

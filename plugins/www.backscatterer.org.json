@@ -1,0 +1,28 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "Backscatterer",
+    "website": "http://www.backscatterer.org",
+    "icon": "default.ico",
+    "desc": "Our DNSBL lists any kind of Backscatterer which we see at the UCEPROTECT-Network."
+  },
+  "request": {
+    "ip_url": "http://www.backscatterer.org/?target=test",
+    "method": "POST",
+    "encrypt": "",
+    "post_fields": {
+      "target" : "test",
+      "ip": ""
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["IS CURRENTLY NOT LISTED", "it was listed in the past"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "Malc0de",
+    "website": "http://malc0de.com/",
+    "icon": "malc0de.ico",
+    "desc": "This is a free and comprehensive report about malc0de.com."
+  },
+  "request": {
+    "ip_url": "http://malc0de.com/database/index.php?search={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["https://www.virustotal.com"],
+    "judge_no_keyword": ["yielded no results"],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

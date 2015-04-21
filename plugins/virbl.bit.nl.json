@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "Virbl",
+    "website": "http://virbl.bit.nl/",
+    "icon": "virbl.ico",
+    "desc": "Virbl is a project of which the idea was born during the RIPE-48 meeting."
+  },
+  "request": {
+    "ip_url": "http://virbl.bit.nl/lookup/index.php?ip={}&x=1&y=11",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["to get your evidenceheaders"],
+    "judge_no_keyword": ["Not listed"],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

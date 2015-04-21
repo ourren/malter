@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "spam",
+    "name": "BlockList",
+    "website": "http://www.spamrats.com/",
+    "icon": "spamrats.ico",
+    "desc": "infected PC or BotNet IP list."
+  },
+  "request": {
+    "ip_url": "http://www.spamrats.com/lookup.php?ip={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["RATS-Dyna - Not on the list", "RATS-NoPtr - Not on the list", "RATS-Spam - Not on the list"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

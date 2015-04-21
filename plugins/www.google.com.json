@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "Google safe browser",
+    "website": "https://www.google.com",
+    "icon": "google.ico",
+    "desc": "Google security check for browser."
+  },
+  "request": {
+    "ip_url": "https://www.google.com/safebrowsing/diagnostic?site={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["托管了恶意软件"],
+    "judge_no_keyword": ["没有被列为可疑对象"],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

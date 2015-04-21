@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "spam",
+    "name": "MegaRBL",
+    "website": "http://www.megarbl.net/",
+    "icon": "megarbl.ico",
+    "desc": "Based on honeypots (Spamtrap), MegaRBL.net maintain a listing of known spammers and reports them to their Internet service providers."
+  },
+  "request": {
+    "ip_url": "https://www.megarbl.net/blocking_list.php?ip={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["is not listed in the RBL"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

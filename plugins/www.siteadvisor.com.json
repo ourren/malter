@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "malware",
+    "name": "McAfee siteadvisor",
+    "website": "http://www.siteadvisor.com/sites/",
+    "icon": "siteadvisor.ico",
+    "desc": "SiteAdvisor is a service that reports on the safety of web sites."
+  },
+  "request": {
+    "ip_url": "http://www.siteadvisor.com/sites/{}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["Caution.", "This link is suspicious."],
+    "judge_no_keyword": ["This link isn't rated."],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

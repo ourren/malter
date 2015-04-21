@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/20",
+    "category": "spam",
+    "name": "WPBL",
+    "website": "http://www.wpbl.info/",
+    "icon": "wpbl.ico",
+    "desc": "WPBL - Weighted Private Block List"
+  },
+  "request": {
+    "ip_url": "http://www.wpbl.info/cgi-bin/detail.cgi?ip={}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": [" not found in database"],
+    "judge_no_keyword": [""],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}
