@@ -1,0 +1,26 @@
+{
+  "information": {
+    "author": "toby",
+    "date": "2015/04/21",
+    "category": "malware",
+    "name": "Sucuri",
+    "website": "https://sitecheck.sucuri.net",
+    "icon": "sucuri.ico",
+    "desc": "Free Website Malware and Security Scanner."
+  },
+  "request": {
+    "ip_url": "https://sitecheck.sucuri.net/results/{}",
+    "method": "GET",
+    "encrypt": "",
+    "post_fields": {
+    }
+  },
+  "status": {
+    "judge_yes_keyword": ["Has Been Blacklisted!"],
+    "judge_no_keyword": ["Not Currently Blacklisted"],
+    "profile_url": ""
+  },
+  "headers": {
+    "nop": ""
+  }
+}

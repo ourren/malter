@@ -43,7 +43,7 @@ def check(plugin, target, target_type):
                 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
                 content = requests.get(url, headers=headers, verify=False).content
             else:
-                content = requests.get(url, headers=headers).content
+                content = requests.get(url, headers=headers, timeout=8).content
         except Exception, e:
             print inRed('\n[-] %s ::: %s\n' % (app_name, str(e)))
             return
@@ -79,7 +79,7 @@ def check(plugin, target, target_type):
                 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
                 content = requests.post(url, data=post_data, headers=headers, verify=False).content
             else:
-                content = requests.post(url, data=post_data, headers=headers).content
+                content = requests.post(url, data=post_data, headers=headers, timeout=8).content
         except Exception, e:
             print e, app_name
             return
