@@ -17,8 +17,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["NOT Listed on URIBL"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": ["Listed on URIBL black"],
+    "judge_no_keyword": ["NOT Listed on URIBL"],
     "profile_url": ""
   },
   "headers": {

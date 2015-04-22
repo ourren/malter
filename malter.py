@@ -47,23 +47,22 @@ def check(plugin, target, target_type):
         except Exception, e:
             print inRed('\n[-] %s ::: %s\n' % (app_name, str(e)))
             return
-        for i_yes_keyword in judge_yes_keyword:
-            if i_yes_keyword in content:
-                if judge_no_keyword != '':
+        for i_no_keyword in judge_no_keyword:
+            if i_no_keyword not in content:
+                if judge_yes_keyword[0] == '':
                     print u"[{0}] {1}".format(category, ('%s (%s)' % (app_name, website)))
                     icon = plugin['information']['icon']
                     desc = plugin['information']['desc']
                     output_add(category, app_name, website, target, target_type, icon, desc, url)
                     break
                 else:
-                    for i_no_keywords in judge_no_keyword:
-                        if i_no_keywords and i_no_keywords not in content:
+                    for i_yes_keywords in judge_yes_keyword:
+                        if i_yes_keywords and i_yes_keywords in content:
                             print u"[{0}] {1}".format(category, ('%s (%s)' % (app_name, website)))
                             icon = plugin['information']['icon']
                             desc = plugin['information']['desc']
                             output_add(category, app_name, website, target, target_type, icon, desc, url)
                             break
-
         else:
             pass
     elif plugin['request']['method'] == "POST":
@@ -84,17 +83,17 @@ def check(plugin, target, target_type):
         except Exception, e:
             print e, app_name
             return
-        for i_yes_keyword in judge_yes_keyword:
-            if i_yes_keyword in content:
-                if judge_no_keyword != '':
+        for i_no_keyword in judge_no_keyword:
+            if i_no_keyword not in content:
+                if judge_yes_keyword[0] == '':
                     print u"[{0}] {1}".format(category, ('%s (%s)' % (app_name, website)))
                     icon = plugin['information']['icon']
                     desc = plugin['information']['desc']
                     output_add(category, app_name, website, target, target_type, icon, desc, url)
                     break
                 else:
-                    for i_no_keywords in judge_no_keyword:
-                        if i_no_keywords and i_no_keywords not in content:
+                    for i_yes_keywords in judge_yes_keyword:
+                        if i_yes_keywords and i_yes_keywords in content:
                             print u"[{0}] {1}".format(category, ('%s (%s)' % (app_name, website)))
                             icon = plugin['information']['icon']
                             desc = plugin['information']['desc']

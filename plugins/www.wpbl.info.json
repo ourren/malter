@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": [" not found in database"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": [""],
+    "judge_no_keyword": ["not found in database"],
     "profile_url": ""
   },
   "headers": {

@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["<< 0 matches"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": [""],
+    "judge_no_keyword": ["We could not found any matches about"],
     "profile_url": ""
   },
   "headers": {

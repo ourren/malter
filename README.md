@@ -42,7 +42,7 @@ But current we just add ip check system as below:
      |_| |_| |_| \__,_||_| \__|\___||_|
 
 
-    [*] App: Malware/Spam ip online check
+    [*] App: Malware ip online check
     [*] Version: V1.0(20150420)
     [*] Website: ourren.github.io
 

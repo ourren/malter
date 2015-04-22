@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["not listed in bl.spamcop.net"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": [""],
+    "judge_no_keyword": ["not listed in bl.spamcop.net"],
     "profile_url": ""
   },
   "headers": {

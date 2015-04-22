@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["RATS-Dyna - Not on the list", "RATS-NoPtr - Not on the list", "RATS-Spam - Not on the list"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": [""],
+    "judge_no_keyword": ["<strong>RATS-Dyna</strong> - Not on the list", "<strong>RATS-NoPtr</strong> - Not on the list", "<strong>RATS-Spam</strong> - Not on the list"],
     "profile_url": ""
   },
   "headers": {

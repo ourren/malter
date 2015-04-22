@@ -16,7 +16,7 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["Caution.", "This link is suspicious."],
+    "judge_yes_keyword": ["Caution.", "This link is suspicious.", "might be dangerous"],
     "judge_no_keyword": ["This link isn't rated."],
     "profile_url": ""
   },

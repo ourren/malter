@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-# encoding: utf-8
-# author: toby
-# website: http://ourren.github.io/
+# coding=utf8
+# author=e0@2015<ff0000team>
 
 
 def inBlack(s):

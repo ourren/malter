@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["is listed in the SBL", "is listed in the PBL"],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": ["is listed"],
+    "judge_no_keyword": ["not listed in the SBL", "not listed in the PBL"],
     "profile_url": ""
   },
   "headers": {

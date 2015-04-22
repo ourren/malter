@@ -9,15 +9,15 @@
     "desc": "ZeuS Tracker tracks ZeuS Command&Control servers (hosts)."
   },
   "request": {
-    "ip_url": "https://zeustracker.abuse.ch/monitor.php?host={}",
+    "ip_url": "https://zeustracker.abuse.ch/monitor.php?ipaddress={}",
     "method": "GET",
     "encrypt": "",
     "post_fields": {
     }
   },
   "status": {
-    "judge_yes_keyword": ["was not found in the ZeuS Tracker database."],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": ["which are currently hosted on this IP address"],
+    "judge_no_keyword": ["was not found in the ZeuS Tracker database."],
     "profile_url": ""
   },
   "headers": {

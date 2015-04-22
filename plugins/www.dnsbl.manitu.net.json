@@ -16,8 +16,8 @@
     }
   },
   "status": {
-    "judge_yes_keyword": ["is not listed here."],
-    "judge_no_keyword": [""],
+    "judge_yes_keyword": ["is listed here."],
+    "judge_no_keyword": ["is not listed here."],
     "profile_url": ""
   },
   "headers": {
